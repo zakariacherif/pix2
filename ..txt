@@ -1,0 +1,14 @@
+entry.691796861=rem&    ------------name
+entry.769932081=rem&    ------------family name
+entry.1028330531=rem&   ------------phone
+entry.1104087062=rem&   ------------wilaya
+entry.1228680231=rem    ------------baladia
+
+https://docs.google.com/forms/u/0/d/e/1FAIpQLSev6KOPOwBB5eAW2g3xa23jkZTU_1_gKf3j6U78mvUpUCcfug/formResponse
+
+
+
+https://docs.google.com/forms/d/e/1FAIpQLSev6KOPOwBB5eAW2g3xa23jkZTU_1_gKf3j6U78mvUpUCcfug/viewform?usp=pp_url
+
+
+

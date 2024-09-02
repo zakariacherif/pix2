@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
+    <script defer src="./script.js"></script>
+    <title>Pix Store</title>
+</head>
+<body>
+    <div id="loader">
+        <img src="./images/fav.png" alt="Loading" id="loader-logo">
+    </div>
+    <!------------------------------------------------------->
+    <div class="top">
+        <div class="first">
+            <a href="https://m.me/61563851114278" target="_blank"><img id="burger" src="./images/burger.png" alt="Burger Menu"></a>
+            <img id="logo" src="./images/logo.png" alt="Logo">
+        </div>
+        <div class="seconde">
+            <div class="right">
+                <h4>الدخول المدرسي</h4>
+                <p>محفظة مقاومة للماء</p>
+            </div>
+            <div class="left">
+                <p>السعر</p>
+                <h4>3500 دج</h4>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <a class="btn" href="#acheter">إشتري الآن</a>
+        <a class="btn" id="mybtn" href="#pics">المزيد من المعلومات</a>
+    </div>
+
+    <div class="info">
+        <h3 id="info">استعد للعام الدراسي مع حقيبة ظهر مقاومة للماء – تصميم عصري وراحة لا مثيل لها، مثالية لجميع احتياجاتك!</h3>
+        <div class="pics" id="pics">
+            <img src="./images/bag1/1.jpg" alt="Bag Image 1">
+            <img src="./images/bag1/2.jpg" alt="Bag Image 2">
+            <img src="./images/bag1/3.jpg" alt="Bag Image 3">
+        </div>
+    </div>
+
+    <div class="order">
+        <h1 id="acheter">أطلب الآن</h1>
+        <iframe name="hiddenconf" id="hiddenconf" style="display:none;" onload="if(sub){window.location='conf.html'}"></iframe>
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSev6KOPOwBB5eAW2g3xa23jkZTU_1_gKf3j6U78mvUpUCcfug/formResponse" method="post" target="hiddenconf" onsubmit="sub=true">
+            <label for="full-name">الاسم :</label><br>
+            <input type="text" id="full-name" name="entry.691796861" required><br><br>
+
+            <label for="last-name">اللقب:</label><br>
+            <input type="text" id="last-name" name="entry.769932081" required><br><br>
+
+            <label for="phone-number">رقم الهاتف:</label><br>
+            <input type="tel" id="phone-number" name="entry.1028330531" required pattern="[0-9]{10}"><br><br>
+
+            <label for="wilaya">الولاية:</label><br>
+            <select id="wilaya" name="entry.1104087062" required>
+                <option value="" disabled selected>اختر ولايتك</option>
+                <!-- Add wilaya options here -->
+            </select><br><br>
+
+            <label for="municipality">البلدية:</label><br>
+            <input type="text" id="municipality" name="entry.1228680231" required><br><br>
+
+            <div class="price-details">
+                <p>سعر المنتج: <span id="product-price">3500</span> د.ج.‏</p>
+                <p>سعر التوصيل: <span id="delivery-price">0</span> د.ج.‏</p>
+                <p><strong>المبلغ الإجمالي: <span id="total-price">3500</span> د.ج.‏</strong></p>
+            </div>
+
+            <button class="btn" id="mymybtn" type="submit">شراء</button>
+        </form>
+        <p align="center">بعد الضغط على زر الشراء سيتم الاتصال بكم في أقرب وقت لتأكيد الطلب </p>
+        <br>
+        <p align="center">للاستفسار ومزيد من المعلومات اتصلوا على الرقم:</p>
+        <br>
+        <br>
+        <h4 align="center">0665397175</h4>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</body>
+</html>
